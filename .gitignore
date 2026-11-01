@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+
+# Production Builds
+dist/
+build/
+
+# Tunneling & Executables
+cloudflared.exe
+ngrok.exe
+*.log
+
+# Environments & OS files
+.env
+.env.local
+.DS_Store
+Thumbs.db
