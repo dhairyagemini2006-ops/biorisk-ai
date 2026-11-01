@@ -57,7 +57,7 @@ export default function App() {
   }, []);
 
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/biorisk-ai">
       <Routes>
         <Route path="/" element={<AppShell />}>
           <Route index element={<Dashboard />} />
